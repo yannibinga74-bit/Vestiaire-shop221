@@ -123,4 +123,11 @@ function initContactForm(){
     if (success) status.classList.add('success');
     status.classList.add('show');
   }
+
+document.querySelectorAll("button").forEach(button=>{
+    button.addEventListener("click",()=>{
+        alert("Merci pour votre intérêt ! Cette boutique est un projet de démonstration.");
+    });
+});
+
 }
