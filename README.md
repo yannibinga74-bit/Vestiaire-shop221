@@ -37,10 +37,27 @@ vestiaire/
 | **[Prénom A]** | `index.html`, `about.html`, structure HTML globale et navigation, `script.js` |
 | **[Prénom B]** | `boutique.html`, `contact.html`, `style.css` (design global et responsive), rédaction du README |
 
-> Remplacez `[Prénom A]` et `[Prénom B]` par vos prénoms respectifs — ce sont aussi
-> les noms utilisés pour vos branches Git (`feature/prenom-a`, `feature/prenom-b`).
+> Remplacez `[Prénom A]` et `[Prénom B]` par Nos prénoms respectifs — ce sont aussi
+> les noms utilisés pour Nos branches Git (`feature/prenom-a`, `feature/prenom-b`).
 
 ## Lancer le site
 
 Aucune installation nécessaire : ouvrir `index.html` dans un navigateur, ou servir
 le dossier avec une extension type "Live Server".
+
+## Membres du groupe
+
+- Yann IBINGA
+- Nom du partenaire
+
+## Technologies utilisées
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+
+## Objectif
+
+Développer un site web statique de vente de vêtements et d'accessoires en appliquant les bonnes pratiques de gestion de versions avec Git.
