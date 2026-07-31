@@ -5,13 +5,13 @@
 :root{
   --ink: #1c1a17;
   --bone: #810a8a;
-  --bone-soft: #f4efe4;
+  --bone-soft: #f1e4f4;
   --bottle: #2f3d2b;
   --bottle-dark: #202b1d;
   --gold: #b8862e;
   --clay: #a9432f;
   --grey: #8f887c;
-  --line: rgba(28,26,23,0.15);
+  --line: rgba(231, 15, 15, 0.897);
 
   --serif: 'Fraunces', serif;
   --sans: 'Work Sans', sans-serif;
