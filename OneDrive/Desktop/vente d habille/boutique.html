@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boutique — VESTIAIRE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">VESTI<span>AIRE</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="boutique.html" class="active">Boutique</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section style="padding-bottom:0;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="section-eyebrow">Catalogue complet</span>
+        <h2>La boutique</h2>
+      </div>
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">Tout</button>
+      <button class="filter-btn" data-filter="vetements">Vêtements</button>
+      <button class="filter-btn" data-filter="accessoires">Accessoires</button>
+      <button class="filter-btn" data-filter="promo">Promotions</button>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <p class="no-results" id="noResults">Aucun article ne correspond à ce filtre pour le moment.</p>
+
+    <div class="catalogue" id="catalogue">
+
+      <article class="product-card" data-cat="vetements">
+        <span class="product-ref">RÉF. VT-014</span>
+        <div class="product-swatch sw-1" data-initial="M"></div>
+        <h3 class="product-name">Manteau laine "Arven"</h3>
+        <span class="product-cat">Vêtements</span>
+        <span class="product-price">189,00 €</span>
+      </article>
+
+      <article class="product-card" data-cat="vetements">
+        <span class="product-ref">RÉF. VT-021</span>
+        <div class="product-swatch sw-2" data-initial="P"></div>
+        <h3 class="product-name">Pull col rond "Sten"</h3>
+        <span class="product-cat">Vêtements</span>
+        <span class="product-price">79,00 €</span>
+      </article>
+
+      <article class="product-card" data-cat="vetements promo">
+        <span class="product-ref">RÉF. VT-007</span>
+        <div class="product-swatch sw-4" data-initial="C"></div>
+        <h3 class="product-name">Chemise lin "Elio"</h3>
+        <span class="product-cat">Vêtements · Promo</span>
+        <span class="product-price">49,00 €</span>
+      </article>
+
+      <article class="product-card" data-cat="vetements">
+        <span class="product-ref">RÉF. VT-033</span>
+        <div class="product-swatch sw-6" data-initial="J"></div>
+        <h3 class="product-name">Jean brut coupe droite</h3>
+        <span class="product-cat">Vêtements</span>
+        <span class="product-price">98,00 €</span>
+      </article>
+
+      <article class="product-card" data-cat="accessoires">
+        <span class="product-ref">RÉF. AC-002</span>
+        <div class="product-swatch sw-3" data-initial="C"></div>
+        <h3 class="product-name">Ceinture cuir tressé</h3>
+        <span class="product-cat">Accessoires</span>
+        <span class="product-price">54,00 €</span>
+      </article>
+
+      <article class="product-card" data-cat="accessoires">
+        <span class="product-ref">RÉF. AC-009</span>
+        <div class="product-swatch sw-5" data-initial="F"></div>
+        <h3 class="product-name">Foulard soie imprimée</h3>
+        <span class="product-cat">Accessoires</span>
+        <span class="product-price">45,00 €</span>
+      </article>
+
+      <article class="product-card" data-cat="accessoires promo">
+        <span class="product-ref">RÉF. AC-015</span>
+        <div class="product-swatch sw-1" data-initial="S"></div>
+        <h3 class="product-name">Sac cabas toile</h3>
+        <span class="product-cat">Accessoires · Promo</span>
+        <span class="product-price">39,00 €</span>
+      </article>
+
+      <article class="product-card" data-cat="accessoires">
+        <span class="product-ref">RÉF. AC-018</span>
+        <div class="product-swatch sw-2" data-initial="B"></div>
+        <h3 class="product-name">Bonnet laine mérinos</h3>
+        <span class="product-cat">Accessoires</span>
+        <span class="product-price">32,00 €</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="logo">VESTI<span>AIRE</span></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
